@@ -1,0 +1,7 @@
+*.o
+*.cxx
+*.h
+*.tcl
+*.dylib
+Makefile
+.DS_Store
