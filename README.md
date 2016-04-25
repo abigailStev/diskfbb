@@ -1,6 +1,6 @@
 # diskfbb
-A modification of the XSPEC diskbb model that includes a spectral hardening 
-factor f. Diskbb is a multi-colour blackbody model of an accretion disk.
+A modification of the XSPEC model `diskbb` that includes a spectral hardening 
+factor `f`. `diskbb` is a multi-colour blackbody model of an accretion disk.
 
 f = T_col / T_eff
 * T_col is the color or apparent peak blackbody temperature
