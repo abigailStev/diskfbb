@@ -14,7 +14,7 @@ An up-to-date version of HEASOFT, with XSPEC 12.8.2 or higher, is required.
 
 To initialize this model in your build of xspec: 
 >`> xspec`
->
+> (it loads an xspec session)
 >`XSPEC> initpackage diskfbb lmodel.dat /absolute/path/to/diskfbb`
 
 Then, to load the model (must be done in every session you want to use it):
@@ -29,7 +29,7 @@ Relevant papers for physics behind the original diskbb model:
 #### diskfbb.f
 The fortran file containing the model.
 #### lmodel.dat
-The required initialization for custom models.
+The required initialization file for custom models.
 
 ## Authors:
 * Abigail Stevens (UvA-API)
